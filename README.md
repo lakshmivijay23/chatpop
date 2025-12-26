@@ -1,6 +1,7 @@
 # Conversational AI Web App 💬
 
 A modern conversational AI web application featuring a floating chat widget and seamless integration with a Django backend.
+![Uploading image.png…]()
 
 ---
 
