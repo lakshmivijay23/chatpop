@@ -68,7 +68,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chatbot_demo.wsgi.application'
-OPENAI_API_KEY = 'your-api-key-here'
+GOOGLE_API_KEY = 'AIzaSyDLQFH9pTV9vIYDiRMc7ARykSuOTH1P0WY'
+
 
 
 # Database
