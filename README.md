@@ -2,6 +2,8 @@
 
 A modern conversational AI web application featuring a floating chat widget and seamless integration with a Django backend.
 <img width="1363" height="589" alt="image" src="https://github.com/user-attachments/assets/c97ccf16-5e04-4fb0-bcc9-a68fba2bfe3c" />
+<img width="1357" height="622" alt="image" src="https://github.com/user-attachments/assets/9ae5282d-eae0-49fa-b283-eebc4824e8a2" />
+
 
 
 ---
