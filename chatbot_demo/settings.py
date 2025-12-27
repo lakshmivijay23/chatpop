@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = 'django-insecure-vs)01=9#g$w3)skkf@gth2s-jlvjo40u(2=wi8480kts#si&us'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -68,8 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chatbot_demo.wsgi.application'
-GOOGLE_API_KEY = 'your-api-key'
-
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 
 # Database
